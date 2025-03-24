@@ -1,0 +1,23 @@
+.elect-data-container{
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+.continer-card{
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: rgb(187, 198, 207);
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: 430px;
+    width: 300px;
+}
+.continer-card img{
+    height: 150px;
+    width: 150px;
+}

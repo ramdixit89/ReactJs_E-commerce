@@ -1,0 +1,48 @@
+.custom-navbar {
+    background: linear-gradient(to right, #b4d1f3, #36424e);
+    padding: 10px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-brand {
+    color: #fff !important;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo-text {
+    background: -webkit-linear-gradient(45deg, #f8b400, #f76d57);
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .navbar-brand:hover {
+    transform: scale(1.1);
+  }
+  
+  .nav-link-item {
+    color: #fff !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-link-item:hover {
+    color: #f8b400 !important;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-link-item {
+      text-align: center;
+      margin: 10px 0;
+    }
+    .navbar-collapse {
+      background: rgba(0, 0, 0, 0.9);
+      padding: 10px;
+      border-radius: 10px;
+    }
+  }
+  
